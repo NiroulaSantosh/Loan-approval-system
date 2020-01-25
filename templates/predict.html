@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elegibility Checking</title>
+    <link rel="stylesheet" href = {{ url_for('static', filename='css/predict_style.css') }} >
+</head>
+
+<body>
+    <div class="main"> 
+        <ul>
+            <li> <a href="index.html">Home</a></li> 
+            <li class="active"> <a href="predict.html">Loan Request</a></li>
+            <li> <a href="about.html">About Us</a></li>
+        </ul>
+        <div class="title">
+        </div>
+                  
+    <header>    
+        <div class="saku">
+            <h1>FILL UP THE FORM HERE</h1><br><br>
+            <form method="POST" id="register" action="/process">
+            <table>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Enter Your Name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><input type="text" name="address" id="address" placeholder="Enter Your Address" required></td>
+                </tr>
+                <tr>
+                    <td><label>Contacts</label></td>
+                    <td><input type="text" name="contacts" id="contacts" placeholder="Enter Your Contacts" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="text" name="email" id="email" placeholder="Enter Your Email Address" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Education Status</label></td>
+                    <td><select name="education">
+                        <option value="undergraduate">Under-Graduate</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="postgraduate">Post-Graduate</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label>Marital Status</label></td>
+                    <td><select name="marital_status">
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Number Of Dependents</label></td>
+                    <td><input type="number" name="dependents" id="numofdep" placeholder="Enter Number Of Dependents" min="0" required></td>
+                </tr>
+                <tr>
+                    <td><label>Job Experience</label></td>
+                    <td><input type="number" name="job_duration" id="jobexp" placeholder="Enter Your Job Experience (In Years)" min="0" required></td>
+                </tr>
+                <tr>
+                    <td><label>Applicant Income</label></td>
+                    <td><input type="number" name="income" id="mincome" placeholder="Enter Your Monthly Income" min="0" required></td>
+                </tr>
+                <tr>
+                    <td><label>Loan Amount</label></td>
+                    <td><input type="number" name="loan_amount" id="loanamt" placeholder="Enter Loan Amount" min="0" required></td>
+                </tr>
+                <tr>
+                    <td><label>Loan Interest Rate</label></td>
+                    <td><input type="number" name="interest_rate" id="intrate" placeholder="Enter Loan Interest Rate (In Percentage)" min="0" required></td>
+                </tr>
+                <tr>
+                        <td><label>Loan Term</label></td>
+                        <td><input type="number" name="tenure" id="loanterm" placeholder="Enter Loan Term (In Months)" min="0" required></td>
+                </tr>
+
+            </table>
+            <div style="text-align:center">  
+                    <input type="submit" name="submit" id="submit" value="SUBMIT" onclick="Submit"> 
+            </div>
+        </div>
+    </body>
+</html>

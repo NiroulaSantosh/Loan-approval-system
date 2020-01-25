@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)), url(b.png);
+    height: 155vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.saku{
+    padding:30px;
+    margin:80px auto;
+    width:800px;
+    height:500px;
+    background-color:rgb(68, 67, 67);
+    opacity:0.6;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+h1{
+    color: beige;
+    text-decoration: cadetblue;
+}
+
+h2{
+    color:black;
+}
+
+.ss{
+    color:white;
+    text-align: end;
+    text-decoration-color: tomato;
+}
+
+.abc{
+    padding:30px;
+    align-content: flex-end;
+    margin-top:10px auto;
+    margin-left:10px auto;
+    background-color:rgb(68, 67, 67);
+    opacity:0.6; 
+}

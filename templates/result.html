@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href = {{ url_for('static', filename='css/result.css') }} >
+</head>
+
+<body background="a.jpg">
+    <div class="saku">
+         <div align="center">
+            <h1 align = "center">USER DETAILS</h1>
+            <h2 align = "left">{{name}}</h2>
+            <h2 align = "left">{{address}}</h2>
+            <h2 align = "left">{{contacts}}</h2>
+            <h2 align = "left">{{email}}</h2>
+            <h2 align = "left">{{gender}}</h2>
+            <h2 align = "left">{{marital_status}}</h2>
+            <h2 align = "left">{{education}}</h2>
+            <h2 align = "left">{{dependents}}</h2>
+            <h2 align = "left">{{job_duration}}</h2>
+            <h2 align = "left">{{income}}</h2>
+            <h2 align = "left">{{loan_amount}}</h2>
+            <h2 align = "left">{{interest_rate}}</h2>
+            <h2 align = "left">{{tenure}}</h2>
+            <h1 align = "center">RESULT</h1>
+            <h2 align = "center">{{prediction_text}}</h2>
+         </div>
+            <div class="abc">
+                    <a href="index.html" class="ss" id="ss">RETURN TO THE HOMEPAGE</a>
+            </div>
+        </div>
+        
+</body>
