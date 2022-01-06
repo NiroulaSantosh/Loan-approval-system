@@ -19,6 +19,13 @@ Loan approval system is one of our collage project used for  `Personal Loan` app
 # Tools and Technology
 # Ml Algorithm
 # UI Snippets
+Following images will give you the brief idea about our project fornt end 
+- Home page <img src="diagrams and screenshots/index.png" >
+- User form <img src="diagrams and screenshots/predict.png" >
+- Result <img src="diagrams and screenshots/result 1.png" >
+
+
+
 # Installation
 # Credit
 # Conclusion
